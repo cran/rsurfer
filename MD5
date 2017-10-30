@@ -1,7 +1,10 @@
-70b459b712112e4aa5606d61546fbaf5 *DESCRIPTION
+e87eb57638ce1a1cfb95b297dfcbbe3c *DESCRIPTION
 04f0ea221e839b3caf7ff4ab35924239 *LICENSE
-6866347da7a1ccdc1132ca8b312fdebc *NAMESPACE
-6368de46f511aa2cace44aa9195962fc *R/rsurfer.R
+7a3157910fd26aa8935ad2459ab431bc *NAMESPACE
+4defa2b6860ee59fdfcf649b838cb6c4 *R/rsurfer.R
+a2936b46586804a77e7b25d88a581d3b *build/vignette.rds
+6427876a76faa6fbbef27e488f9384ce *inst/doc/main-vignette.Rmd
+d9f10629c6452aa43bdace3337d08fac *inst/doc/main-vignette.html
 6b6f48e27ba439fa07daeeab62cb12a8 *man/addrandomdiagnosis.Rd
 7494bc579c464121326193d00c8b99b6 *man/addrandomgender.Rd
 e461ed4825cf26782c8ed28487dbaf9c *man/adni.mergewithfreesurferoutput.Rd
@@ -29,8 +32,8 @@ e489dc931be22672a784ac574be3f915 *man/extract.volumes.Rd
 13fad22fc8c0006788cbe1c15349306d *man/fsimport.listfields.Rd
 0e1b54e253cece329c4452e87bd0a2d7 *man/fsimport.serialise.Rd
 cabfc45b52556d75899b8799b27603bd *man/generaterandomsubjects.Rd
+3f3cce6833cbe81fe8880b4f1a9fe415 *man/get.hemisphere.side.Rd
 8defb164befabce82da2bc36dac2719e *man/get.opposite.hemisphere.measurement.Rd
-472fc65c741112339951e641a89d56e3 *man/getHemisphereSide.Rd
 bdccad0d4a331ff6d6cc126df278e61c *man/getfieldgroup.Rd
 8902f1d343b7b2c140a702b655a9dfd8 *man/getfshome.Rd
 a7bacdc587132a5d370bb82b813acd23 *man/getfsversion.Rd
@@ -51,7 +54,7 @@ cf04bbd43c66caafcccdebbd64fb6161 *man/is.corticalvolume.Rd
 33a6ecade56a0f04784c6dcf6f5192e2 *man/normalise.listfieldgroups.Rd
 b66d3d687619cb88c8480954ae380463 *man/normalise.listmethods.Rd
 70566eb8cc44309d54386d4cc734174a *man/removeabnormalrowsandcols.Rd
-e5af7268d33a64eafe60df71ead93d73 *man/rsurfer-package.Rd
+90ab6dd83329ca2045a4b3ddcd00bdeb *man/rsurfer-package.Rd
 d27856004c113d49a37c8e23bf8ce3d7 *man/searchforabnormalities.cols.Rd
 1230982bddb322b427b016cc8353352d *man/searchforabnormalities.rows.Rd
 9db5936346c181d9dde9b856f3ea2c77 *man/setfshome.Rd
@@ -60,3 +63,4 @@ d27856004c113d49a37c8e23bf8ce3d7 *man/searchforabnormalities.cols.Rd
 d6bdd4b61b0896176b1b3b29f5103d32 *man/test.fieldextraction.Rd
 f21572f8f2194555052da537d93f1881 *man/test.importing.Rd
 09468aa23642c8e2ea7b364c9b0fc4db *man/test.normalisation.Rd
+6427876a76faa6fbbef27e488f9384ce *vignettes/main-vignette.Rmd

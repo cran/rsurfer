@@ -2434,17 +2434,21 @@ get.opposite.hemisphere.measurement <- function(name, verbose = F, verbose_warn 
 #' @param name The name of the feature to return the hemisphere of
 #' @return The side of the hemisphere the feature belongs to ("left" or "right"). If it belongs to neither of these, "central" is returned
 #' @examples
-#' getHemisphereSide("Right.vessel")
-#' getHemisphereSide("lhCortexVol")
+#' get.hemisphere.side("Right.vessel")
+#' get.hemisphere.side("lhCortexVol")
 #' @author Alexander Luke Spedding, \email{alexspedding271@gmail.com}
 #' @export
-getHemisphereSide <- function(name) {
+get.hemisphere.side <- function(name) {
   if (startsWith(name, "lh") || startsWith(name, "left") || startsWith(name, "Left")) {
     return("left")
   } else if (startsWith(name, "rh") || startsWith(name, "right") || startsWith(name, "Right")) {
     return("right")
   }
   return("central")
+}
+getHemisphereSide <- function(name) {
+  .Deprecated("get.hemisphere.side", "rsurfer")
+  return(get.hemisphere.side(name))
 }
 
 #' Eliminate Abnormal Rows

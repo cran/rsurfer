@@ -24,6 +24,7 @@ Useful links:
 Authors:
 \itemize{
   \item Fabio Cappello
+  \item Giuseppe di Fatta
 }
 
 }
